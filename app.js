@@ -32,8 +32,15 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) {
-  //eslint-disable-line
-}
+  let num1 = 5;
+  let num2 = 9;
+  let multiply = num1 * num2;
+  
+  return[multiply, `The product of ${num1} and ${num2} is ${multiply}.`]
+
+
+
+}testMultiply(5,9);
 
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
